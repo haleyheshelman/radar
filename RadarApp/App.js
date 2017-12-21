@@ -33,6 +33,7 @@ export default class App extends Component<{}> {
         <Text>
           Please log in using your Kerberos username and password.
         </Text>
+        {/*TODO: Add stack navigation and link this screen to DutyLanding */}
         {/* <Text style={styles.instructions}>
           {instructions}
         </Text> */}
@@ -41,7 +42,7 @@ export default class App extends Component<{}> {
   }
 }
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ //TODO: Move this shiz outta here
   container: {
     flex: 1,
     justifyContent: 'center',
