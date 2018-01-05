@@ -4,17 +4,18 @@
  * @flow
  */
 
+
 import React, { Component } from 'react';
 import {
-  Platform,
-  StyleSheet,
   Text,
-  TextInput,
   Image,
-  View
+  View,
+    ImageBackground,
 } from 'react-native';
+import StandardButton from "./app/components/StandardButton/StandardButton";
 
-// const instructions = Platform.select({
+
+// const text = Platform.select({
 //   ios: 'Press Cmd+R to reload,\n' +
 //     'Cmd+D or shake for dev menu',
 //   android: 'Double tap R on your keyboard to reload,\n' +
@@ -24,43 +25,30 @@ import {
 export default class App extends Component<{}> {
   render() {
     return (
-      <View style={styles.container}>
+      <View style={styles.global.mainContainer}>
+        <ImageBackground source={require('./app/images/bg2.png')}
+          style={styles.global.mainContainer}>
         <Image source={require('./app/images/rose_r_placeholder.png')}
-          style={styles.logo}/>
-        <Text>
-          Welcome to the RADAR app!
+        style={styles.global.logo}/>
+        <Text style={styles.global.heading}>
+          Welcome to RADAR!
         </Text>
-        <Text>
+        <Text style={styles.global.text}>
           Please log in using your Kerberos username and password.
         </Text>
+        <StandardButton/>
+
+
         {/*TODO: Add stack navigation and link this screen to DutyLanding */}
-        {/* <Text style={styles.instructions}>
-          {instructions}
+        {/* <Text style={styles.text}>
+          {text}
         </Text> */}
+        </ImageBackground>
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({ //TODO: Move this shiz outta here
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  logo: {
-    width: 400,
-    height: 400
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
+import styles from './app/styles/style';
+
+

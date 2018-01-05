@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import colors from '../../config/colorscheme';
+import colors from '../../styles/colorscheme';
 
 export default StyleSheet.create({
     iconContainer: {
