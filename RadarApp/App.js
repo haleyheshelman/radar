@@ -4,16 +4,15 @@
  * @flow
  */
 
+
 import React, { Component } from 'react';
 import {
-  Platform,
-  StyleSheet,
   Text,
-  TextInput,
   Image,
-  ImageBackground,
-  View
+  View,
+    ImageBackground,
 } from 'react-native';
+
 
 // const instructions = Platform.select({
 //   ios: 'Press Cmd+R to reload,\n' +
@@ -25,13 +24,24 @@ import {
 export default class App extends Component<{}> {
   render() {
     return (
-      <View style={styles.container}>
-        <ImageBackground source={require('./app/images/background.png')}
-          style={styles.container}>
-        <Text style={styles.welcome}>
+      <View
+          style={styles.global.mainContainer}
+      >
+        <ImageBackground source={require('./app/images/bg2.png')}
+          style={styles.global.mainContainer}
+            >
+        <Image
+            source={require('./app/images/rose_r_placeholder.png')}
+        style={styles.global.logo}
+        />
+        <Text
+            style={styles.global.welcome}
+        >
           Welcome to RADAR!
         </Text>
-        <Text style={styles.instructions}>
+        <Text
+            style={styles.global.instructions}
+        >
           Please log in using your Kerberos username and password.
         </Text>
         {/*TODO: Add stack navigation and link this screen to DutyLanding */}
@@ -44,30 +54,6 @@ export default class App extends Component<{}> {
   }
 }
 
-const styles = StyleSheet.create({ //TODO: Move this shiz outta here
-  container: {
-      flex: 1,
-      height: undefined,
-      width: undefined,
-      // justifyContent: 'center',
-      // alignItems: 'center',
-      backgroundColor: 'transparent',
-  },
-  logo: {
-    width: 400,
-    height: 400,
-      backgroundColor: 'transparent',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-      backgroundColor: 'transparent',
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 15,
-      backgroundColor: 'transparent',
-  },
-});
+import styles from './app/styles/style';
+
+
