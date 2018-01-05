@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-import colors from '../config/colorscheme';
+import colors from '../styles/colorscheme';
 import {StandardButton} from '../components/StandardButton';
 import { View } from 'react-native';
 

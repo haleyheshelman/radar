@@ -1,5 +1,5 @@
-import {StyleSheet} from 'react-native';
-import colors from '../../config/colorscheme';
+import {StyleSheet,} from 'react-native';
+import colors from '../../styles/colorscheme';
 
 export default StyleSheet.create({
     standardButtonContainer: {
@@ -9,15 +9,14 @@ export default StyleSheet.create({
     },
 
     standardButton: {
-        backgroundColor: '#ffff00',
-    },
+        backgroundColor: colors.background,
 
+    },
     standardButtonText: {
         textAlign: 'center',
         paddingVertical: 15,
         paddingHorizontal: 40,
         color: '#fff',
         fontSize: 16,
-        //fontWeight: 500,
     },
 });

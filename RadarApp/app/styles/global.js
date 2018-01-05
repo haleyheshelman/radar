@@ -1,5 +1,7 @@
 import React, {StyleSheet} from "react-native";
 
+import colors from './colorscheme';
+
 var global = StyleSheet.create({
     mainContainer: {
         flex: 1,
@@ -14,20 +16,19 @@ var global = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
-  welcome: {
-    fontSize: 20,
-      color: '#800000',
-    textAlign: 'center',
-
-    margin: 10,
-      backgroundColor: 'transparent',
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#797979',
-    marginBottom: 15,
-      backgroundColor: 'transparent',
-  },
+    heading: {
+        fontSize: 20,
+        color: colors.headingColor,
+        textAlign: 'center',
+        margin: 10,
+        backgroundColor: 'transparent',
+    },
+    text: {
+        textAlign: 'center',
+        color: colors.textColor,
+        marginBottom: 15,
+        backgroundColor: 'transparent',
+    },
 });
 
 module.exports = global;

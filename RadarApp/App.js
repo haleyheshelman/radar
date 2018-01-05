@@ -12,9 +12,10 @@ import {
   View,
     ImageBackground,
 } from 'react-native';
+import StandardButton from "./app/components/StandardButton/StandardButton";
 
 
-// const instructions = Platform.select({
+// const text = Platform.select({
 //   ios: 'Press Cmd+R to reload,\n' +
 //     'Cmd+D or shake for dev menu',
 //   android: 'Double tap R on your keyboard to reload,\n' +
@@ -24,29 +25,23 @@ import {
 export default class App extends Component<{}> {
   render() {
     return (
-      <View
-          style={styles.global.mainContainer}
-      >
+      <View style={styles.global.mainContainer}>
         <ImageBackground source={require('./app/images/bg2.png')}
-          style={styles.global.mainContainer}
-            >
-        <Image
-            source={require('./app/images/rose_r_placeholder.png')}
-        style={styles.global.logo}
-        />
-        <Text
-            style={styles.global.welcome}
-        >
+          style={styles.global.mainContainer}>
+        <Image source={require('./app/images/rose_r_placeholder.png')}
+        style={styles.global.logo}/>
+        <Text style={styles.global.heading}>
           Welcome to RADAR!
         </Text>
-        <Text
-            style={styles.global.instructions}
-        >
+        <Text style={styles.global.text}>
           Please log in using your Kerberos username and password.
         </Text>
+        <StandardButton/>
+
+
         {/*TODO: Add stack navigation and link this screen to DutyLanding */}
-        {/* <Text style={styles.instructions}>
-          {instructions}
+        {/* <Text style={styles.text}>
+          {text}
         </Text> */}
         </ImageBackground>
       </View>
