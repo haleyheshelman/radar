@@ -1,6 +1,5 @@
 import React, {PropTypes} from 'react';
 import {
-    Text,
     View,
     Button
 } from 'react-native';
@@ -17,6 +16,5 @@ const CallIcon = () => (
         />
     </View>
 );
-
 
 export default CallIcon;
