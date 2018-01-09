@@ -8,14 +8,16 @@ import styles from './styles';
 
 // import {CallIcon} from '../CallIcon';
 
-const SingleContact = ({role, name, phone}) => { //here name is an object
+const SingleContact = ({role, name}) => { //here name is an object
     const firstName = name.first.toString();
     const lastName = name.last.toString();
     const fullName = firstName + " " + lastName;
 
+    const roleName = role.toString();
+
     return (
         <View style = {styles.singleContactContainer}>
-            <Text>{role}</Text>
+            <Text>{roleName}</Text>
             <Text>{fullName}</Text>
             {/* <CallIcon numberToCall = {phone}/> */}
             {/* <CallIcon/> */}

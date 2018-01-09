@@ -2,8 +2,9 @@ import React, { Component, PropTypes } from 'react';
 
 import colors from '../styles/colorscheme';
 import {StandardButton} from '../components/StandardButton';
+import {Header} from './../components/Header';
 import {SingleContact} from '../components/SingleContact';
-import { View, StyleSheet, Text, ImageBackground } from 'react-native';
+import { View, StyleSheet, Text } from 'react-native';
 
 import styles from './../styles/style';
 
@@ -15,13 +16,13 @@ import {testRA, testGA} from '../config/testData';
 
 class DutyLanding extends Component {
     render() {
+        const {navigate} = this.props.navigation;
+        const hallName = testRA.hall.toString();
+        const raName = testRA.name.first.toString()+ " " + testRA.name.last.toString();
+        const raFloor = testRA.floor.toString();
         return (
             <View>
-                <View>
-                    <Text>{testRA.name.first.toString()} {testRA.name.last.toString()}</Text>
-                    <Text>{testRA.hall.toString()} {testRA.floor.toString()}</Text>
-                    <Text></Text>
-                </View>
+                <Header headerText={raName} hall={hallName} floor={raFloor}/>
 
                 <View>
                     <Text>Next Duty:</Text>
@@ -31,15 +32,17 @@ class DutyLanding extends Component {
                 <View>
                     <Text>Current Duty for {testRA.hall.toString()}:</Text>
                     <SingleContact //TODO: convert to FlatList for dynamic size
-                        role={testRA.role.toString()}
+                        role={testRA.role}
                         name={testRA.name}
-                        phone={testRA.phone.toString()}
-                        ></SingleContact>
+                        />
                     <SingleContact
-                        role={testGA.role.toString()}
+                        role={testGA.role}
                         name={testGA.name}
-                        phone={testGA.phone.toString()}
-                        ></SingleContact>
+                        />
+                </View>
+                <View>
+                    <StandardButton text="View Schedule" onPress={() => navigate('ViewSchedule')}/>
+                    <StandardButton text="View Duty Swap Board" onPress={() => navigate('SwapBoard')}/>
                 </View>
             </View>
         );
