@@ -3,7 +3,8 @@ import {
   Text,
   Image,
   View,
-    ImageBackground,
+  ImageBackground,
+  TextInput
 } from 'react-native';
 
 import styles from './../styles/style';
@@ -26,6 +27,7 @@ class Login extends Component {
 
   render() {
     const {navigate} = this.props.navigation;
+    this.state = {text: ''};
     return (
       <View style={styles.global.mainContainer}>
         <ImageBackground source={require('./../images/bg2.png')}
@@ -39,7 +41,16 @@ class Login extends Component {
           <Text style={styles.global.text}>
             Please log in using your Kerberos username and password.
           </Text>
+          <TextInput style={{height: 40}}
+                     placeholder="Username"
+                     onChangeText={(text) => this.setState({text})}
+          />
+          <TextInput style={{height: 40}}
+                     placeholder="Password"
+                     onChangeText={(text) => this.setState({text})}
+          />
           <StandardButton text="Submit" onPress={() => navigate('DutyLanding')}/>
+
 
         </ImageBackground>
       </View>
