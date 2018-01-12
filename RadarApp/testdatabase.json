@@ -4,7 +4,8 @@
       "first name": "Vibha",
       "last name": "Alangar",
       "phoneNo": "4405702012",
-      "building": "Apt_West",
+      "building": "Weast",
+      "floor": "West 1",
       "roomNo": "106",
       "role": "RA",
       "DutyDays": {
@@ -17,7 +18,8 @@
       "last name": "Smith",
       "phoneNo": "1234567890",
       "building": "Triplets",
-      "roomNo": "Scharp312",
+      "floor": "Scharp 3",
+      "roomNo": "312",
       "role": "GA",
       "DutyDays": {
         "1718W5F": true,
@@ -32,6 +34,57 @@
       "Date": "12",
       "Week": "5",
       "Day": "Friday"
+    },
+    "1718W5S": {
+      "Quarter" : "Winter",
+      "Month": "January",
+      "Date": "13",
+      "Week": "5",
+      "Day": "Saturday"
+    }
+  },
+  "Building": {
+    "BSB":{
+      "Name": "BSB",
+      "Floors" : {
+        "1":"1",
+        "2":"2",
+        "3":"3"
+      },
+      "TotalRAs": "3",
+      "RAsOnDuty": "1"
+    },
+    "Triplets": {
+      "Name": "Triplets",
+      "Floors" : {
+        "S1":"Scharp 1",
+        "S2":"Scharp 2",
+        "S3":"Scharp 3",
+        "S4":"Scharp 4",
+        "M1":"Mees 1",
+        "M2":"Mees 2",
+        "M3":"Mees 3",
+        "M4":"Mees 4",
+        "B1":"Blum 1",
+        "B2":"Blum 2",
+        "B3":"Blum 3",
+        "B4":"Blum 4"
+      },
+      "TotalRAs": "6",
+      "RAsOnDuty": "2"
+    },
+    "Weast":{
+      "Name": "Weast",
+      "Floors" : {
+        "W1": "West 1 (Best 1)",
+        "W2": "West 2",
+        "W3": "West 3",
+        "E1": "East 1",
+        "E2": "East 2",
+        "E3": "East 3"
+      },
+      "TotalRAs" : "6",
+      "RAsOnDuty": "2"
     }
   }
 }
