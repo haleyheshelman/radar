@@ -1,0 +1,37 @@
+{
+  "Person": {
+    "alangavr": {
+      "first name": "Vibha",
+      "last name": "Alangar",
+      "phoneNo": "4405702012",
+      "building": "Apt_West",
+      "roomNo": "106",
+      "role": "RA",
+      "DutyDays": {
+        "1718WF": true,
+        "1718W5S": false
+      }
+    },
+    "smithb": {
+      "first name": "Bob",
+      "last name": "Smith",
+      "phoneNo": "1234567890",
+      "building": "Triplets",
+      "roomNo": "Scharp312",
+      "role": "GA",
+      "DutyDays": {
+        "1718W5F": true,
+        "1718W5S": true
+      }
+    }
+  },
+  "DutyDay": {
+    "1718W5F": {
+      "Quarter": "Winter",
+      "Month": "January",
+      "Date": "12",
+      "Week": "5",
+      "Day": "Friday"
+    }
+  }
+}
