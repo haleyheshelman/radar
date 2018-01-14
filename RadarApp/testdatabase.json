@@ -1,8 +1,30 @@
 {
-  "AssignedDuties" : {
-    "DutyDay" : "1718W5F"
-  },
+
   "Building" : {
+    "Speed" : {
+      "Floors" : [ null, "1", "2", "3" ],
+      "Name" : "Speed",
+      "RAsOnDuty" : "1",
+      "TotalRAs" : "3"
+    },
+    "Deming" : {
+      "Floors" : [ null, "0", "1", "2", "3" ],
+      "Name" : "Deming",
+      "RAsOnDuty" : "1",
+      "TotalRAs" : "3"
+    },
+    "Percopo" : {
+      "Floors" : [ null, "1", "2", "3" ],
+      "Name" : "Percopo",
+      "RAsOnDuty" : "1",
+      "TotalRAs" : "3"
+    },
+    "Lakeside" : {
+      "Floors" : [ null, "1", "2", "3", "4" ],
+      "Name" : "Lakeside",
+      "RAsOnDuty" : "1",
+      "TotalRAs" : "3"
+    },
     "BSB" : {
       "Floors" : [ null, "1", "2", "3" ],
       "Name" : "BSB",
@@ -70,10 +92,7 @@
       "roomNo" : "106"
     },
     "smithb" : {
-      "DutyDays" : {
-        "1718W5F" : true,
-        "1718W5S" : true
-      },
+      "DutyDays" : [ "1718W5S" ],
       "building" : "Triplets",
       "first name" : "Bob",
       "floor" : "Scharp 3",
