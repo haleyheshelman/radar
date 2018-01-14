@@ -44,12 +44,14 @@
   },
   "DutyDay" : {
     "1718W5F" : {
+      "Assignments" : [ "alangavr", "smithb" ],
       "Date" : "12 January",
       "Day" : "Friday",
       "Quarter" : "Winter",
       "Week" : "5"
     },
     "1718W5S" : {
+      "Assignments" : [ "alangavr" ],
       "Date" : "13 January",
       "Day" : "Saturday",
       "Quarter" : "Winter",
