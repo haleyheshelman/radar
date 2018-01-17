@@ -5,7 +5,7 @@ export default StyleSheet.create({
     standardButtonContainer: {
         justifyContent: 'center',
         alignItems: 'center',
-        marginBottom: 40,
+        marginBottom: 15,
         marginTop:10,
 
     },

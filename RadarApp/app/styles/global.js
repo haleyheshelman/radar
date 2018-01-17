@@ -17,11 +17,21 @@ var global = StyleSheet.create({
     },
     secondaryContainer: {
         flex: 1,
-        backgroundColor: 'transparent',
         flexDirection: 'column',
         justifyContent:'flex-start',
         alignItems:'flex-start',
         paddingHorizontal:25,
+        alignSelf: 'stretch',
+    },
+
+    verticalButtonContainer: {
+        flex: 1,
+        backgroundColor: 'transparent',
+        flexDirection: 'column',
+        justifyContent:'center',
+        alignItems:'center',
+        paddingHorizontal:25,
+        paddingVertical: 15,
     },
 
     logo: {
@@ -33,14 +43,22 @@ var global = StyleSheet.create({
     heading: {
         fontSize: 30,
         color: colors.headingColor,
-        textAlign: 'center',
+        textAlign: 'left',
+        margin: 10,
+        backgroundColor: 'transparent',
+    },
+
+    secondaryHeading: {
+        fontSize: 20,
+        color: colors.headingColor,
+        textAlign: 'left',
         margin: 10,
         backgroundColor: 'transparent',
     },
     text: {
         textAlign: 'center',
         color: colors.textColor,
-        marginBottom: 15,
+        marginBottom: 10,
         backgroundColor: 'transparent',
     },
 

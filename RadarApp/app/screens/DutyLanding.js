@@ -26,12 +26,12 @@ class DutyLanding extends Component {
                 <Header headerText={raName} hall={hallName} floor={raFloor}/>
 
                 <View style={styles.global.secondaryContainer}>
-                    <Text style={styles.colors.heading}>Next Duty:</Text>
-                    <Text style={styles.colors.heading}>Week {testRA.nextDuty.week.toString()}, {testRA.nextDuty.date.toString()}</Text>
+                    <Text style={styles.global.secondaryHeading}>Next Duty:</Text>
+                    <Text style={styles.global.text}>Week {testRA.nextDuty.week.toString()}, {testRA.nextDuty.date.toString()}</Text>
                     <Text></Text>
                 </View>
                 <View style={styles.global.secondaryContainer}>
-                    <Text style={styles.colors.heading}>Current Duty for {testRA.hall.toString()}:</Text>
+                    <Text style={styles.global.secondaryHeading}>Current Duty for {testRA.hall.toString()}:</Text>
                     <SingleContact //TODO: convert to FlatList for dynamic size
                         role={testRA.role}
                         name={testRA.name}
@@ -41,7 +41,7 @@ class DutyLanding extends Component {
                         name={testGA.name}
                         />
                 </View>
-                <View style={styles.global.secondaryContainer}>
+                <View style={styles.global.verticalButtonContainer}>
                     <StandardButton text="View Schedule" onPress={() => navigate('ViewSchedule')}/>
                     <StandardButton text="View Duty Swap Board" onPress={() => navigate('SwapBoard')}/>
                 </View>
