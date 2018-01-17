@@ -20,7 +20,7 @@ var global = StyleSheet.create({
         flexDirection: 'column',
         justifyContent:'flex-start',
         alignItems:'flex-start',
-        paddingHorizontal:25,
+        paddingHorizontal:20,
         alignSelf: 'stretch',
     },
 
@@ -46,6 +46,7 @@ var global = StyleSheet.create({
         textAlign: 'left',
         margin: 10,
         backgroundColor: 'transparent',
+
     },
 
     secondaryHeading: {
