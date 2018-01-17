@@ -3,9 +3,19 @@ import colors from '../../styles/colorscheme';
 
 export default StyleSheet.create({
     singleContactContainer: {
-        //TODO: Haley fill in pls
+       flex:1,
+        // width:50,
+        // height:50,
+        flexDirection:'row',
+        justifyContent:'flex-start' ,
+
     },
     singleContact: {
-        //TODO: Haley fill in pls
+        flex:1,
+        // width:50,
+        // height:50,
+        flexDirection: 'row',
+        color: colors.textColor,
+
     },
 });

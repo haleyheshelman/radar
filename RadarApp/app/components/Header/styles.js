@@ -3,17 +3,33 @@ import colors from '../../styles/colorscheme';
 
 export default StyleSheet.create({
     headerContainer: {
-        //TODO: Haley fill in pls
+        flex:1,
+        flexDirection: 'row',
+        backgroundColor: 'transparent',
+        justifyContent:'flex-start',
+        alignItems:'center',
+        alignSelf:'stretch',
+        paddingHorizontal: 15,
+        paddingVertical:20,
     },
+
     dutyScheduleTitle: {
-        //TODO: Haley fill in pls
+        color: colors.headingColor,
+        fontSize: 25,
+        justifyContent:'flex-start',
+        alignContent:'flex-start',
     },
     hallTitle: {
-        //TODO: Haley fill in pls
+        color: colors.headingColor,
+        paddingHorizontal: 15,
+        fontSize: 25,
+        justifyContent:'flex-start',
+        alignContent:'flex-start',
     },
     icon: {
-        //TODO: Haley fill in pls
         width: 100,
         height: 100,
+        marginHorizontal: 15,
+        backgroundColor: 'transparent',
     }
 });

@@ -17,8 +17,8 @@ const SingleContact = ({role, name}) => { //here name is an object
 
     return (
         <View style = {styles.singleContactContainer}>
-            <Text>{roleName}</Text>
-            <Text>{fullName}</Text>
+            <Text style={styles.singleContact}>{roleName}</Text>
+            <Text style={styles.singleContact}>{fullName}</Text>
             {/* <CallIcon numberToCall = {phone}/> */}
             {/* <CallIcon/> */}
         </View>

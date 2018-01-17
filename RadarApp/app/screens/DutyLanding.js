@@ -1,10 +1,10 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component, PropTypes} from 'react';
 
 import colors from '../styles/colorscheme';
 import {StandardButton} from '../components/StandardButton';
 import {Header} from './../components/Header';
 import {SingleContact} from '../components/SingleContact';
-import { View, StyleSheet, Text } from 'react-native';
+import { View, StyleSheet, Text, ImageBackground } from 'react-native';
 
 import styles from './../styles/style';
 
@@ -21,16 +21,17 @@ class DutyLanding extends Component {
         const raName = testRA.name.first.toString()+ " " + testRA.name.last.toString();
         const raFloor = testRA.floor.toString();
         return (
-            <View>
+            <View style={styles.global.mainContainer}>
+                <ImageBackground source={require('./../images/bg2.png')} style={styles.global.mainContainer}>
                 <Header headerText={raName} hall={hallName} floor={raFloor}/>
 
-                <View>
-                    <Text>Next Duty:</Text>
-                    <Text>Week {testRA.nextDuty.week.toString()}, {testRA.nextDuty.date.toString()}</Text>
+                <View style={styles.global.secondaryContainer}>
+                    <Text style={styles.colors.heading}>Next Duty:</Text>
+                    <Text style={styles.colors.heading}>Week {testRA.nextDuty.week.toString()}, {testRA.nextDuty.date.toString()}</Text>
                     <Text></Text>
                 </View>
-                <View>
-                    <Text>Current Duty for {testRA.hall.toString()}:</Text>
+                <View style={styles.global.secondaryContainer}>
+                    <Text style={styles.colors.heading}>Current Duty for {testRA.hall.toString()}:</Text>
                     <SingleContact //TODO: convert to FlatList for dynamic size
                         role={testRA.role}
                         name={testRA.name}
@@ -40,10 +41,11 @@ class DutyLanding extends Component {
                         name={testGA.name}
                         />
                 </View>
-                <View>
+                <View style={styles.global.secondaryContainer}>
                     <StandardButton text="View Schedule" onPress={() => navigate('ViewSchedule')}/>
                     <StandardButton text="View Duty Swap Board" onPress={() => navigate('SwapBoard')}/>
                 </View>
+                </ImageBackground>
             </View>
         );
     }
