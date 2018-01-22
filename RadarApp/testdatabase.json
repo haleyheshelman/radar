@@ -1,25 +1,25 @@
 {
 
   "Building" : {
-    "Speed" : {
+    "SPEED" : {
       "Floors" : [ null, "1", "2", "3" ],
       "Name" : "Speed",
       "RAsOnDuty" : "1",
       "TotalRAs" : "3"
     },
-    "Deming" : {
+    "DEMING" : {
       "Floors" : [ null, "0", "1", "2", "3" ],
       "Name" : "Deming",
       "RAsOnDuty" : "1",
       "TotalRAs" : "3"
     },
-    "Percopo" : {
+    "PERC" : {
       "Floors" : [ null, "1", "2", "3" ],
       "Name" : "Percopo",
       "RAsOnDuty" : "1",
       "TotalRAs" : "3"
     },
-    "Lakeside" : {
+    "LAKE" : {
       "Floors" : [ null, "1", "2", "3", "4" ],
       "Name" : "Lakeside",
       "RAsOnDuty" : "1",
@@ -31,7 +31,7 @@
       "RAsOnDuty" : "1",
       "TotalRAs" : "3"
     },
-    "Triplets" : {
+    "TRIP" : {
       "Floors" : {
         "B1" : "Blum 1",
         "B2" : "Blum 2",
@@ -50,7 +50,7 @@
       "RAsOnDuty" : "2",
       "TotalRAs" : "6"
     },
-    "Weast" : {
+    "APTR" : {
       "Floors" : {
         "E1" : "East 1",
         "E2" : "East 2",
@@ -81,25 +81,313 @@
     }
   },
   "Person" : {
-    "alangavr" : {
-      "DutyDays" : [ "1718W5F", "1718W5S" ],
-      "building" : "Weast",
-      "first name" : "Vibha",
-      "floor" : "West 1",
-      "last name" : "Alangar",
-      "phoneNo" : "4405702012",
-      "role" : "RA",
-      "roomNo" : "106"
+    "VIBHA": {
+      "first name": "Vibha",
+      "last name": "Alangar",
+      "phoneNo": "4405702012",
+      "building": "Apt_West",
+      "roomNo": "106",
+      "role":"RA",
+      "DutyDays": {"1718WF":true,
+        "1718W5S":false}
     },
-    "smithb" : {
-      "DutyDays" : [ "1718W5S" ],
-      "building" : "Triplets",
-      "first name" : "Bob",
-      "floor" : "Scharp 3",
-      "last name" : "Smith",
-      "phoneNo" : "1234567890",
-      "role" : "GA",
-      "roomNo" : "312"
+    "smithb": {
+      "first name": "Bob",
+      "last name": "Smith",
+      "phoneNo": "1234567890",
+      "building": "Triplets",
+      "roomNo": "Scharp312",
+      "role":"GA",
+      "DutyDays": { "1718W5F":true,
+        "1718W5S": true}
+    },
+    "munciemg": {
+      "username": "munciemg",
+      "first name": "Madison",
+      "last name": "Muncie",
+      "building": "PERC",
+      "floor": 2,
+      "room": 215,
+      "role": "RA"
+    },
+    "santanbh": {
+      "username": "santanbh",
+      "first name": "Brennan",
+      "last name": "Santaniello",
+      "building": "LAKE",
+      "floor": 1,
+      "room": 115,
+      "role": "RA"
+    },
+    "suppac": {
+      "username": "suppac",
+      "first name": "Austin",
+      "last name": "Supp",
+      "building": "SPEED",
+      "floor": 1,
+      "room": 104,
+      "role": "RA"
+    },
+    "wohlfab": {
+      "username": "wohlfab",
+      "first name": "Brandon",
+      "last name": "Wohlfarth",
+      "building": "PERC",
+      "floor": 1,
+      "room": 123,
+      "role": "RA"
+    },
+    "footezo": {
+      "username": "footezo",
+      "first name": "Zachary",
+      "last name": "Foote",
+      "building": "SPEED",
+      "floor": 3,
+      "room": 306,
+      "role": "RA"
+    },
+    "franklck": {
+      "username": "franklck",
+      "first name": "Chiarra",
+      "last name": "Franklin",
+      "building": "TRIP",
+      "floor": "MEES 4",
+      "room": 406,
+      "role": "RA"
+    },
+    "doyelmj": {
+      "username": "doyelmj",
+      "first name": "Michael",
+      "last name": "Doyel",
+      "building": "PERC",
+      "floor": 3,
+      "room": 315,
+      "role": "RA"
+    },
+    "castonkr": {
+      "username": "castonkr",
+      "first name": "Kiana",
+      "last name": "Caston",
+      "building": "TRIP",
+      "floor": "BLUM 4",
+      "room": 405,
+      "role": "RA"
+    },
+    "bergcj": {
+      "username": "bergcj",
+      "first name": "Colin",
+      "last name": "Berg",
+      "building": "DEMING",
+      "floor": 1,
+      "room": 112,
+      "role": "RA"
+    },
+    "baileyrj": {
+      "username": "baileyrj",
+      "first name": "Ryan",
+      "last name": "Bailey",
+      "building": "APTR",
+      "floor": "WEST 2",
+      "room": "206A",
+      "role": "RA"
+    },
+    "bechtocw": {
+      "username": "bechtocw",
+      "first name": "Cole",
+      "last name": "Bechtold",
+      "building": "APTR",
+      "floor": "EAST 3",
+      "room": "306A",
+      "role": "RA"
+    },
+    "andersm2": {
+      "username": "andersm2",
+      "first name": "Miranda",
+      "last name": "Anderson-Kenney",
+      "building": "APTR",
+      "floor": "WEST 3",
+      "room": "306A",
+      "role": "RA"
+    },
+    "mikhaidn": {
+      "username": "mikhaidn",
+      "first name": "Daniel",
+      "last name": "Mikhail",
+      "building": "TRIP",
+      "floor": "BLUM 2",
+      "room": 206,
+      "role": "RA"
+    },
+    "meyerjc": {
+      "username": "meyerjc",
+      "first name": "Jason",
+      "last name": "Meyer",
+      "building": "TRIP",
+      "floor": "MEES 2",
+      "room": 206,
+      "role": "RA"
+    },
+    "markisga": {
+      "username": "markisga",
+      "first name": "Gabrielle",
+      "last name": "Markison",
+      "building": "APTR",
+      "floor": "EAST 2",
+      "room": "206A",
+      "role": "RA"
+    },
+    "lindsejk": {
+      "username": "lindsejk",
+      "first name": "Jacob",
+      "last name": "Lindsey",
+      "building": "TRIP",
+      "floor": "SCHARP 2",
+      "room": 206,
+      "role": "RA"
+    },
+    "keltzbm": {
+      "username": "keltzbm",
+      "first name": "Brandon",
+      "last name": "Keltz",
+      "building": "LAKE",
+      "floor": 4,
+      "room": "407A",
+      "role": "RA"
+    },
+    "gibsonps": {
+      "username": "gibsonps",
+      "first name": "Patrick",
+      "last name": "Gibson",
+      "building": "BSB",
+      "floor": 2,
+      "room": 224,
+      "role": "RA"
+    },
+    "sahabuj": {
+      "username": "sahabuj",
+      "first name": "Jane",
+      "last name": "Sahabu",
+      "building": "LAKE",
+      "floor": 3,
+      "room": "307A",
+      "role": "RA"
+    },
+    "domkema": {
+      "username": "domkema",
+      "first name": "Michael",
+      "last name": "Domke",
+      "building": "APTR",
+      "floor": "EAST 1",
+      "room": "106A",
+      "role": "RA"
+    },
+    "tuskaca": {
+      "username": "tuskaca",
+      "first name": "Carley",
+      "last name": "Tuska",
+      "building": "BSB",
+      "floor": 3,
+      "room": 324,
+      "role": "RA"
+    },
+    "vicencrj": {
+      "username": "vicencrj",
+      "first name": "Ryan",
+      "last name": "Vicencio",
+      "building": "BSB",
+      "floor": 1,
+      "room": 124,
+      "role": "RA"
+    },
+    "cail": {
+      "username": "cail",
+      "first name": "Lingzhe",
+      "last name": "Cai",
+      "building": "DEMING",
+      "floor": 3,
+      "room": 304,
+      "role": "RA"
+    },
+    "yagergb": {
+      "username": "yagergb",
+      "first name": "Guy",
+      "last name": "Yager",
+      "building": "DEMING",
+      "floor": 9,
+      "room": 9,
+      "role": "RA"
+    },
+    "adarvea": {
+      "username": "adarvea",
+      "first name": "Alessandro",
+      "last name": "Adarve Cuellar",
+      "building": "LAKE",
+      "floor": 2,
+      "room": "207A",
+      "role": "RA"
+    },
+    "alangavr": {
+      "username": "alangavr",
+      "first name": "Vibha",
+      "last name": "Alangar",
+      "building": "APTR",
+      "floor": "WEST 1",
+      "room": "106A",
+      "role": "RA"
+    },
+    "arhinbn": {
+      "username": "arhinbn",
+      "first name": "Barbara",
+      "last name": "Arhin",
+      "building": "TRIP",
+      "floor": "SCHARP 4",
+      "room": 406,
+      "role": "RA"
+    },
+    "himesjs": {
+      "username": "himesjs",
+      "first name": "Joshua",
+      "last name": "Himes",
+      "building": "SPEED",
+      "floor": 2,
+      "room": 206,
+      "role": "RA"
+    },
+    "washbukd": {
+      "username": "washbukd",
+      "first name": "Kyle",
+      "last name": "Washburn",
+      "building": "DEMING",
+      "floor": 1,
+      "room": 101,
+      "role": "GA"
+    },
+    "marvinjt": {
+      "username": "marvinjt",
+      "first name": "Jason",
+      "last name": "Marvin",
+      "building": "DEMING",
+      "floor": 2,
+      "room": 215,
+      "role": "RA"
+    },
+    "hamathhj": {
+      "username": "hamathhj",
+      "first name": "Hazen",
+      "last name": "Hamather",
+      "building": "PERC",
+      "floor": 1,
+      "room": 17,
+      "role": "GA"
+    },
+    "ottoneok": {
+      "username": "ottoneok",
+      "first name": "Olivia",
+      "last name": "Ottone",
+      "building": "APTR",
+      "floor": "WEST 1",
+      "room": "109A",
+      "role": "GA"
     }
   }
 }
