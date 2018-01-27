@@ -1,6 +1,5 @@
 import React, { Component, PropTypes} from 'react';
 
-import colors from '../styles/colorscheme';
 import {StandardButton} from '../components/StandardButton';
 import {Header} from './../components/Header';
 import {SingleContact} from '../components/SingleContact';
@@ -24,14 +23,13 @@ class DutyLanding extends Component {
             <View style={styles.global.mainContainer}>
                 <ImageBackground source={require('./../images/bg2.png')} style={styles.global.mainContainer}>
                 <Header headerText={raName} hall={hallName} floor={raFloor}/>
-
-                <View style={styles.global.secondaryContainer}>
-                    <Text style={styles.global.secondaryHeading}>Next Duty:</Text>
+                <View style={styles.global.secondaryContainer_woFlex}>
+                    <Text style={styles.global.secondaryHeadingText}>Next Duty:</Text>
                     <Text style={styles.global.text}>Week {testRA.nextDuty.week.toString()}, {testRA.nextDuty.date.toString()}</Text>
                     <Text></Text>
                 </View>
-                <View style={styles.global.secondaryContainer}>
-                    <Text style={styles.global.secondaryHeading}>Current Duty for {testRA.hall.toString()}:</Text>
+                <View style={styles.global.secondaryContainer_wFlex}>
+                    <Text style={styles.global.secondaryHeadingText}>Current Duty for {testRA.hall.toString()}:</Text>
                     <SingleContact //TODO: convert to FlatList for dynamic size
                         role={testRA.role}
                         name={testRA.name}

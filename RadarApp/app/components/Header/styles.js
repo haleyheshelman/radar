@@ -3,10 +3,11 @@ import colors from '../../styles/colorscheme';
 
 export default StyleSheet.create({
     headerContainer: {
-        flex:1,
         flexDirection: 'row',
-        backgroundColor: 'transparent',
+        // backgroundColor: 'transparent',
+        backgroundColor:'#FF00FF',
         justifyContent:'flex-start',
+
         alignItems:'center',
         alignSelf:'stretch',
         paddingHorizontal: 15,

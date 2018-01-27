@@ -19,19 +19,19 @@ class ViewSchedule extends Component { //need to pass PERSON in as a prop
     render() {
         const {stage, navigation} = this.props.navigation;
         return (
-            <View>
+            <View style={styles.global.mainContainer}>
                 {/* <DutyHeader hall={state.params.hallName}/> */}
+                <ImageBackground source={require('./../images/bg2.png')} style={styles.global.mainContainer}>
                 <Header headerText="Duty Schedule" hall="WEASTIES" floor="1"/>
-
-                <View>
-                    <Text>Next Duty:</Text>
-                    <Text>Friday, PLACEHOLDER DATE</Text>
+                <View style={styles.global.secondaryContainer_woFlex}>
+                    <Text style={styles.global.secondaryHeadingText}>Next Duty:</Text>
+                    <Text style={styles.global.text}>Friday, PLACEHOLDER DATE</Text>
+                    <Text></Text>
                 </View>
-
-                <View>
+                <View style={styles.global.secondaryContainer_wFlex}>
                     {/* list of WeeklyDutyComponents*/}
-                    <Text>Week 2</Text>
-                    <Text>Friday, PLACEHOLDER DATE</Text>
+                    <Text style={styles.global.secondaryHeadingText}>Week 2</Text>
+                    <Text style={styles.global.tertiaryHeadingText}>Friday, PLACEHOLDER DATE</Text>
                     <SingleContact
                         role={testRA.role}
                         name={testRA.name}
@@ -40,8 +40,7 @@ class ViewSchedule extends Component { //need to pass PERSON in as a prop
                         role={testGA.role}
                         name={testGA.name}
                     />
-
-                    <Text>Saturday, PLACEHOLDER DATE</Text>
+                    <Text style={styles.global.tertiaryHeadingText}>Saturday, PLACEHOLDER DATE</Text>
                     <SingleContact
                         role={testRA.role}
                         name={testRA.name}
@@ -51,6 +50,7 @@ class ViewSchedule extends Component { //need to pass PERSON in as a prop
                         name={testGA.name}
                     />
                 </View>
+                </ImageBackground>
             </View>
         );
     }

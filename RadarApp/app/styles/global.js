@@ -5,9 +5,10 @@ import colors from './colorscheme';
 var global = StyleSheet.create({
     mainContainer: {
         flex: 1,
-        backgroundColor: 'transparent',
+        // backgroundColor: 'transparent',
+        backgroundColor: '#000080',
         flexDirection: 'column',
-        justifyContent: 'center',
+        // justifyContent: 'center',
         alignItems: 'center',
         position: 'absolute',
         top: 0,
@@ -15,23 +16,41 @@ var global = StyleSheet.create({
         left: 0,
         right: 0,
     },
-    secondaryContainer: {
-        flex: 1,
+    secondaryContainer_wFlex: {
+        // flex: 1,
         flexDirection: 'column',
         justifyContent:'flex-start',
         alignItems:'flex-start',
-        paddingHorizontal:20,
+        paddingHorizontal:15,
         alignSelf: 'stretch',
+        backgroundColor: '#0000FF',
+        marginVertical: 5,
+    },
+
+    secondaryContainer_woFlex: {
+        // flex: 1,
+        flexDirection: 'column',
+        justifyContent:'flex-start',
+        alignItems:'flex-start',
+        paddingHorizontal:15,
+        alignSelf: 'stretch',
+        backgroundColor: '#00FFFF',
+        marginVertical: 5,
     },
 
     verticalButtonContainer: {
-        flex: 1,
-        backgroundColor: 'transparent',
+        // flex: 1,
+        // backgroundColor: 'transparent',
         flexDirection: 'column',
+        backgroundColor: '#0000FF',
         justifyContent:'center',
         alignItems:'center',
         paddingHorizontal:25,
         paddingVertical: 15,
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        right: 0,
     },
 
     logo: {
@@ -39,30 +58,40 @@ var global = StyleSheet.create({
         width: 200,
         justifyContent: 'center',
         alignItems: 'center',
+        marginVertical: 20,
     },
     heading: {
         fontSize: 30,
         color: colors.headingColor,
         textAlign: 'left',
-        margin: 10,
+        // margin: 10,
         backgroundColor: 'transparent',
 
     },
 
-    secondaryHeading: {
+    secondaryHeadingText: {
         fontSize: 20,
         color: colors.headingColor,
+        textAlign: 'left',
+        // margin: 10,
+        backgroundColor: 'transparent',
+    },
+    tertiaryHeadingText: {
+        fontSize: 15,
+        color: colors.textColor,
+        backgroundColor: '#008000',
         textAlign: 'left',
         margin: 10,
         backgroundColor: 'transparent',
     },
+
     text: {
         textAlign: 'center',
         color: colors.textColor,
+        backgroundColor:'#008000',
         marginBottom: 10,
-        backgroundColor: 'transparent',
+        // backgroundColor: 'transparent',
     },
-
     textInput:{
         height: 35,
         borderWidth:1,
@@ -72,5 +101,7 @@ var global = StyleSheet.create({
         paddingHorizontal:20,
     }
 });
+
+
 
 module.exports = global;

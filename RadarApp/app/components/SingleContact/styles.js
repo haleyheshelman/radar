@@ -3,18 +3,14 @@ import colors from '../../styles/colorscheme';
 
 export default StyleSheet.create({
     singleContactContainer: {
-       flex:1,
-        // height: 100,
+       // flex:1,
         flexDirection:'row',
         justifyContent:'flex-start',
         alignContent: 'center',
-
-
-
+        backgroundColor: '#800000',
     },
     singleContact: {
         flex:1,
-        width:50,
         flexDirection: 'row',
         color: colors.textColor,
         backgroundColor: '#FFFFFF10',
