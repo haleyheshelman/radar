@@ -7,15 +7,17 @@ export default StyleSheet.create({
         flexDirection:'row',
         justifyContent:'flex-start',
         alignContent: 'center',
-        backgroundColor: '#800000',
+        backgroundColor: '#FFFFFF10',
+
+
     },
     singleContact: {
         flex:1,
         flexDirection: 'row',
         color: colors.textColor,
-        backgroundColor: '#FFFFFF10',
         marginVertical: 3,
         paddingVertical: 2,
+        paddingHorizontal: 5,
         alignSelf: 'stretch',
     },
 });

@@ -23,12 +23,12 @@ class ViewSchedule extends Component { //need to pass PERSON in as a prop
                 {/* <DutyHeader hall={state.params.hallName}/> */}
                 <ImageBackground source={require('./../images/bg2.png')} style={styles.global.mainContainer}>
                 <Header headerText="Duty Schedule" hall="WEASTIES" floor="1"/>
-                <View style={styles.global.secondaryContainer_woFlex}>
+                <View style={styles.global.secondaryContainer}>
                     <Text style={styles.global.secondaryHeadingText}>Next Duty:</Text>
                     <Text style={styles.global.text}>Friday, PLACEHOLDER DATE</Text>
                     <Text></Text>
                 </View>
-                <View style={styles.global.secondaryContainer_wFlex}>
+                <View style={styles.global.secondaryContainer}>
                     {/* list of WeeklyDutyComponents*/}
                     <Text style={styles.global.secondaryHeadingText}>Week 2</Text>
                     <Text style={styles.global.tertiaryHeadingText}>Friday, PLACEHOLDER DATE</Text>

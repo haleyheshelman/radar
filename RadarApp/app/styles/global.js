@@ -5,8 +5,7 @@ import colors from './colorscheme';
 var global = StyleSheet.create({
     mainContainer: {
         flex: 1,
-        // backgroundColor: 'transparent',
-        backgroundColor: '#000080',
+        backgroundColor: 'transparent',
         flexDirection: 'column',
         // justifyContent: 'center',
         alignItems: 'center',
@@ -16,37 +15,24 @@ var global = StyleSheet.create({
         left: 0,
         right: 0,
     },
-    secondaryContainer_wFlex: {
-        // flex: 1,
+    secondaryContainer: {
         flexDirection: 'column',
         justifyContent:'flex-start',
         alignItems:'flex-start',
         paddingHorizontal:15,
+        paddingVertical:5,
         alignSelf: 'stretch',
-        backgroundColor: '#0000FF',
         marginVertical: 5,
-    },
-
-    secondaryContainer_woFlex: {
-        // flex: 1,
-        flexDirection: 'column',
-        justifyContent:'flex-start',
-        alignItems:'flex-start',
-        paddingHorizontal:15,
-        alignSelf: 'stretch',
-        backgroundColor: '#00FFFF',
-        marginVertical: 5,
+        backgroundColor: '#FFFFFF10',
     },
 
     verticalButtonContainer: {
-        // flex: 1,
-        // backgroundColor: 'transparent',
+        backgroundColor: 'transparent',
         flexDirection: 'column',
-        backgroundColor: '#0000FF',
         justifyContent:'center',
         alignItems:'center',
-        paddingHorizontal:25,
-        paddingVertical: 15,
+        paddingHorizontal:20,
+        paddingVertical: 10,
         position: 'absolute',
         bottom: 0,
         left: 0,
@@ -64,7 +50,6 @@ var global = StyleSheet.create({
         fontSize: 30,
         color: colors.headingColor,
         textAlign: 'left',
-        // margin: 10,
         backgroundColor: 'transparent',
 
     },
@@ -73,32 +58,28 @@ var global = StyleSheet.create({
         fontSize: 20,
         color: colors.headingColor,
         textAlign: 'left',
-        // margin: 10,
         backgroundColor: 'transparent',
+
     },
     tertiaryHeadingText: {
         fontSize: 15,
         color: colors.textColor,
-        backgroundColor: '#008000',
         textAlign: 'left',
-        margin: 10,
         backgroundColor: 'transparent',
     },
 
     text: {
         textAlign: 'center',
         color: colors.textColor,
-        backgroundColor:'#008000',
         marginBottom: 10,
-        // backgroundColor: 'transparent',
     },
     textInput:{
         height: 35,
         borderWidth:1,
-        backgroundColor: colors.background,
         color: colors.textColor,
         marginVertical: 5,
         paddingHorizontal:20,
+        backgroundColor: '#FFFFFF20',
     }
 });
 
