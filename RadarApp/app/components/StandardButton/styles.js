@@ -5,7 +5,9 @@ export default StyleSheet.create({
     standardButtonContainer: {
         justifyContent: 'center',
         alignItems: 'center',
-        marginBottom: 20,
+        marginBottom: 15,
+        marginTop:10,
+
     },
 
     standardButton: {
@@ -14,9 +16,10 @@ export default StyleSheet.create({
     },
     standardButtonText: {
         textAlign: 'center',
-        paddingVertical: 15,
-        paddingHorizontal: 40,
+        paddingVertical: 10,
+        paddingHorizontal: 30,
         color: '#fff',
         fontSize: 16,
+
     },
 });

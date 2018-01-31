@@ -13,7 +13,7 @@ const Header = ({headerText, hall, floor}) => { //here name is an object
     return (
         <View style = {styles.headerContainer}>
             <View>
-                <Image style={styles.icon} source={require('./../../images/rose_r_placeholder.png')}/>
+                <Image source={require('./../../images/rose_r_placeholder.png')}  style={styles.icon}/>
             </View>
             <View>
                 <Text style={styles.dutyScheduleTitle}>{headerText}</Text>

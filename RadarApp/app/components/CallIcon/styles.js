@@ -7,5 +7,9 @@ export default StyleSheet.create({
     },
     icon: {
         //TODO: Haley fill in pls
+        height: 200,
+        width: 200,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
 });
