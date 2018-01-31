@@ -3,11 +3,8 @@ import colors from '../../styles/colorscheme';
 
 export default StyleSheet.create({
     headerContainer: {
-        flex:1,
         flexDirection: 'row',
-        backgroundColor: 'transparent',
         justifyContent:'flex-start',
-        alignItems:'center',
         alignSelf:'stretch',
         paddingHorizontal: 15,
         paddingVertical:20,
@@ -21,7 +18,6 @@ export default StyleSheet.create({
     },
     hallTitle: {
         color: colors.headingColor,
-        paddingHorizontal: 15,
         fontSize: 25,
         justifyContent:'flex-start',
         alignContent:'flex-start',
