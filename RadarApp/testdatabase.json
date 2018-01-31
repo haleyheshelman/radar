@@ -4,34 +4,34 @@
     "SPEED" : {
       "Floors" : [ null, "1", "2", "3" ],
       "Name" : "Speed",
-      "RAsOnDuty" : "1",
-      "TotalRAs" : "3"
+      "RAsOnDuty" : 1,
+      "TotalRAs" : 3
     },
     "DEMING" : {
       "Floors" : [ null, "0", "1", "2", "3" ],
       "Name" : "Deming",
-      "RAsOnDuty" : "1",
-      "TotalRAs" : "3"
+      "RAsOnDuty" : 1,
+      "TotalRAs" : 3
     },
     "PERC" : {
       "Floors" : [ null, "1", "2", "3" ],
       "Name" : "Percopo",
-      "RAsOnDuty" : "1",
-      "TotalRAs" : "3"
+      "RAsOnDuty" : 1,
+      "TotalRAs" : 3
     },
     "LAKE" : {
       "Floors" : [ null, "1", "2", "3", "4" ],
       "Name" : "Lakeside",
-      "RAsOnDuty" : "1",
-      "TotalRAs" : "3"
+      "RAsOnDuty" : 1,
+      "TotalRAs" : 3
     },
     "BSB" : {
       "Floors" : [ null, "1", "2", "3" ],
       "Name" : "BSB",
-      "RAsOnDuty" : "1",
-      "TotalRAs" : "3"
+      "RAsOnDuty" : 1,
+      "TotalRAs" : 3
     },
-    "TRIP" : {
+    "TRIPS" : {
       "Floors" : {
         "B1" : "Blum 1",
         "B2" : "Blum 2",
@@ -47,8 +47,8 @@
         "S4" : "Scharp 4"
       },
       "Name" : "Triplets",
-      "RAsOnDuty" : "2",
-      "TotalRAs" : "6"
+      "RAsOnDuty" : 2,
+      "TotalRAs" : 6
     },
     "APTR" : {
       "Floors" : {
@@ -60,25 +60,202 @@
         "W3" : "West 3"
       },
       "Name" : "Weast",
-      "RAsOnDuty" : "2",
-      "TotalRAs" : "6"
+      "RAsOnDuty" : 2,
+      "TotalRAs" : 6
     }
   },
   "DutyDay" : {
-    "1718W5F" : {
+    "1718W5FTEST" : {
       "Assignments" : [ "alangavr", "smithb" ],
       "Date" : "12 January",
       "Day" : "Friday",
       "Quarter" : "Winter",
       "Week" : "5"
     },
-    "1718W5S" : {
+    "1718W5STEST" : {
       "Assignments" : [ "alangavr" ],
       "Date" : "13 January",
       "Day" : "Saturday",
       "Quarter" : "Winter",
       "Week" : "5"
+    },
+    "1718W1F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 1,
+      "DayOfWeek": "Friday",
+      "Date": 1,
+      "Month": 12
+    },
+    "1718W1S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 1,
+      "DayOfWeek": "Saturday",
+      "Date": 2,
+      "Month": 12
+    },
+    "1718W2F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 2,
+      "DayOfWeek": "Friday",
+      "Date": 8,
+      "Month": 12
+    },
+    "1718W2S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 2,
+      "DayOfWeek": "Saturday",
+      "Date": 9,
+      "Month": 12
+    },
+    "1718W3F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 3,
+      "DayOfWeek": "Friday",
+      "Date": 15,
+      "Month": 12
+    },
+    "1718W3S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 3,
+      "DayOfWeek": "Saturday",
+      "Date": 16,
+      "Month": 12
+    },
+    "1718W5F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 5,
+      "DayOfWeek": "Friday",
+      "Date": 12,
+      "Month": 1
+    },
+    "1718W5S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 5,
+      "DayOfWeek": "Saturday",
+      "Date": 13,
+      "Month": 1
+    },
+    "1718W6F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 6,
+      "DayOfWeek": "Friday",
+      "Date": 19,
+      "Month": 1
+    },
+    "1718W6S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 6,
+      "DayOfWeek": "Saturday",
+      "Date": 20,
+      "Month": 1
+    },
+    "1718W7F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 7,
+      "DayOfWeek": "Friday",
+      "Date": 26,
+      "Month": 1
+    },
+    "1718W7S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 7,
+      "DayOfWeek": "Saturday",
+      "Date": 27,
+      "Month": 1
+    },
+    "1718W8F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 8,
+      "DayOfWeek": "Friday",
+      "Date": 2,
+      "Month": 2
+    },
+    "1718W8S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 8,
+      "DayOfWeek": "Saturday",
+      "Date": 3,
+      "Month": 2
+    },
+    "1718W9F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 9,
+      "DayOfWeek": "Friday",
+      "Date": 9,
+      "Month": 2
+    },
+    "1718W9S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 9,
+      "DayOfWeek": "Saturday",
+      "Date": 10,
+      "Month": 2
+    },
+    "1718W10F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 10,
+      "DayOfWeek": "Friday",
+      "Date": 16,
+      "Month": 2
+    },
+    "1718W10S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 10,
+      "DayOfWeek": "Saturday",
+      "Date": 17,
+      "Month": 2
+    },
+    "1718W11S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 11,
+      "DayOfWeek": "Sunday",
+      "Date": 18,
+      "Month": 2
+    },
+    "1718W11M": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 11,
+      "DayOfWeek": "Monday",
+      "Date": 19,
+      "Month": 2
+    },
+    "1718W11T": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 11,
+      "DayOfWeek": "Tuesday",
+      "Date": 20,
+      "Month": 2
+    },
+    "1718W11W": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 11,
+      "DayOfWeek": "Wednesday",
+      "Date": 21,
+      "Month": 2
     }
+
   },
   "Person" : {
     "VIBHA": {
@@ -150,7 +327,7 @@
       "username": "franklck",
       "first name": "Chiarra",
       "last name": "Franklin",
-      "building": "TRIP",
+      "building": "TRIPS",
       "floor": "MEES 4",
       "room": 406,
       "role": "RA"
@@ -168,7 +345,7 @@
       "username": "castonkr",
       "first name": "Kiana",
       "last name": "Caston",
-      "building": "TRIP",
+      "building": "TRIPS",
       "floor": "BLUM 4",
       "room": 405,
       "role": "RA"
@@ -213,7 +390,7 @@
       "username": "mikhaidn",
       "first name": "Daniel",
       "last name": "Mikhail",
-      "building": "TRIP",
+      "building": "TRIPS",
       "floor": "BLUM 2",
       "room": 206,
       "role": "RA"
@@ -222,7 +399,7 @@
       "username": "meyerjc",
       "first name": "Jason",
       "last name": "Meyer",
-      "building": "TRIP",
+      "building": "TRIPS",
       "floor": "MEES 2",
       "room": 206,
       "role": "RA"
@@ -240,7 +417,7 @@
       "username": "lindsejk",
       "first name": "Jacob",
       "last name": "Lindsey",
-      "building": "TRIP",
+      "building": "TRIPS",
       "floor": "SCHARP 2",
       "room": 206,
       "role": "RA"
@@ -339,7 +516,7 @@
       "username": "arhinbn",
       "first name": "Barbara",
       "last name": "Arhin",
-      "building": "TRIP",
+      "building": "TRIPS",
       "floor": "SCHARP 4",
       "room": 406,
       "role": "RA"
