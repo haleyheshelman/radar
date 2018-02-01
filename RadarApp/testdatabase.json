@@ -1,0 +1,570 @@
+{
+
+  "Building" : {
+    "SPEED" : {
+      "Floors" : [ null, "1", "2", "3" ],
+      "Name" : "Speed",
+      "RAsOnDuty" : 1,
+      "TotalRAs" : 3
+    },
+    "DEMING" : {
+      "Floors" : [ null, "0", "1", "2", "3" ],
+      "Name" : "Deming",
+      "RAsOnDuty" : 1,
+      "TotalRAs" : 3
+    },
+    "PERC" : {
+      "Floors" : [ null, "1", "2", "3" ],
+      "Name" : "Percopo",
+      "RAsOnDuty" : 1,
+      "TotalRAs" : 3
+    },
+    "LAKE" : {
+      "Floors" : [ null, "1", "2", "3", "4" ],
+      "Name" : "Lakeside",
+      "RAsOnDuty" : 1,
+      "TotalRAs" : 3
+    },
+    "BSB" : {
+      "Floors" : [ null, "1", "2", "3" ],
+      "Name" : "BSB",
+      "RAsOnDuty" : 1,
+      "TotalRAs" : 3
+    },
+    "TRIPS" : {
+      "Floors" : {
+        "B1" : "Blum 1",
+        "B2" : "Blum 2",
+        "B3" : "Blum 3",
+        "B4" : "Blum 4",
+        "M1" : "Mees 1",
+        "M2" : "Mees 2",
+        "M3" : "Mees 3",
+        "M4" : "Mees 4",
+        "S1" : "Scharp 1",
+        "S2" : "Scharp 2",
+        "S3" : "Scharp 3",
+        "S4" : "Scharp 4"
+      },
+      "Name" : "Triplets",
+      "RAsOnDuty" : 2,
+      "TotalRAs" : 6
+    },
+    "APTR" : {
+      "Floors" : {
+        "E1" : "East 1",
+        "E2" : "East 2",
+        "E3" : "East 3",
+        "W1" : "West 1 (Best 1)",
+        "W2" : "West 2",
+        "W3" : "West 3"
+      },
+      "Name" : "Weast",
+      "RAsOnDuty" : 2,
+      "TotalRAs" : 6
+    }
+  },
+  "DutyDay" : {
+    "1718W5FTEST" : {
+      "Assignments" : [ "alangavr", "smithb" ],
+      "Date" : "12 January",
+      "Day" : "Friday",
+      "Quarter" : "Winter",
+      "Week" : "5"
+    },
+    "1718W5STEST" : {
+      "Assignments" : [ "alangavr" ],
+      "Date" : "13 January",
+      "Day" : "Saturday",
+      "Quarter" : "Winter",
+      "Week" : "5"
+    },
+    "1718W1F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 1,
+      "DayOfWeek": "Friday",
+      "Date": 1,
+      "Month": 12
+    },
+    "1718W1S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 1,
+      "DayOfWeek": "Saturday",
+      "Date": 2,
+      "Month": 12
+    },
+    "1718W2F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 2,
+      "DayOfWeek": "Friday",
+      "Date": 8,
+      "Month": 12
+    },
+    "1718W2S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 2,
+      "DayOfWeek": "Saturday",
+      "Date": 9,
+      "Month": 12
+    },
+    "1718W3F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 3,
+      "DayOfWeek": "Friday",
+      "Date": 15,
+      "Month": 12
+    },
+    "1718W3S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 3,
+      "DayOfWeek": "Saturday",
+      "Date": 16,
+      "Month": 12
+    },
+    "1718W5F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 5,
+      "DayOfWeek": "Friday",
+      "Date": 12,
+      "Month": 1
+    },
+    "1718W5S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 5,
+      "DayOfWeek": "Saturday",
+      "Date": 13,
+      "Month": 1
+    },
+    "1718W6F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 6,
+      "DayOfWeek": "Friday",
+      "Date": 19,
+      "Month": 1
+    },
+    "1718W6S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 6,
+      "DayOfWeek": "Saturday",
+      "Date": 20,
+      "Month": 1
+    },
+    "1718W7F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 7,
+      "DayOfWeek": "Friday",
+      "Date": 26,
+      "Month": 1
+    },
+    "1718W7S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 7,
+      "DayOfWeek": "Saturday",
+      "Date": 27,
+      "Month": 1
+    },
+    "1718W8F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 8,
+      "DayOfWeek": "Friday",
+      "Date": 2,
+      "Month": 2
+    },
+    "1718W8S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 8,
+      "DayOfWeek": "Saturday",
+      "Date": 3,
+      "Month": 2
+    },
+    "1718W9F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 9,
+      "DayOfWeek": "Friday",
+      "Date": 9,
+      "Month": 2
+    },
+    "1718W9S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 9,
+      "DayOfWeek": "Saturday",
+      "Date": 10,
+      "Month": 2
+    },
+    "1718W10F": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 10,
+      "DayOfWeek": "Friday",
+      "Date": 16,
+      "Month": 2
+    },
+    "1718W10S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 10,
+      "DayOfWeek": "Saturday",
+      "Date": 17,
+      "Month": 2
+    },
+    "1718W11S": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 11,
+      "DayOfWeek": "Sunday",
+      "Date": 18,
+      "Month": 2
+    },
+    "1718W11M": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 11,
+      "DayOfWeek": "Monday",
+      "Date": 19,
+      "Month": 2
+    },
+    "1718W11T": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 11,
+      "DayOfWeek": "Tuesday",
+      "Date": 20,
+      "Month": 2
+    },
+    "1718W11W": {
+      "School Year": 1718,
+      "Quarter": "Winter",
+      "Week": 11,
+      "DayOfWeek": "Wednesday",
+      "Date": 21,
+      "Month": 2
+    }
+
+  },
+  "Person" : {
+    "VIBHA": {
+      "first name": "Vibha",
+      "last name": "Alangar",
+      "phoneNo": "4405702012",
+      "building": "Apt_West",
+      "roomNo": "106",
+      "role":"RA",
+      "DutyDays": {"1718WF":true,
+        "1718W5S":false}
+    },
+    "smithb": {
+      "first name": "Bob",
+      "last name": "Smith",
+      "phoneNo": "1234567890",
+      "building": "Triplets",
+      "roomNo": "Scharp312",
+      "role":"GA",
+      "DutyDays": { "1718W5F":true,
+        "1718W5S": true}
+    },
+    "munciemg": {
+      "username": "munciemg",
+      "first name": "Madison",
+      "last name": "Muncie",
+      "building": "PERC",
+      "floor": 2,
+      "room": 215,
+      "role": "RA"
+    },
+    "santanbh": {
+      "username": "santanbh",
+      "first name": "Brennan",
+      "last name": "Santaniello",
+      "building": "LAKE",
+      "floor": 1,
+      "room": 115,
+      "role": "RA"
+    },
+    "suppac": {
+      "username": "suppac",
+      "first name": "Austin",
+      "last name": "Supp",
+      "building": "SPEED",
+      "floor": 1,
+      "room": 104,
+      "role": "RA"
+    },
+    "wohlfab": {
+      "username": "wohlfab",
+      "first name": "Brandon",
+      "last name": "Wohlfarth",
+      "building": "PERC",
+      "floor": 1,
+      "room": 123,
+      "role": "RA"
+    },
+    "footezo": {
+      "username": "footezo",
+      "first name": "Zachary",
+      "last name": "Foote",
+      "building": "SPEED",
+      "floor": 3,
+      "room": 306,
+      "role": "RA"
+    },
+    "franklck": {
+      "username": "franklck",
+      "first name": "Chiarra",
+      "last name": "Franklin",
+      "building": "TRIPS",
+      "floor": "MEES 4",
+      "room": 406,
+      "role": "RA"
+    },
+    "doyelmj": {
+      "username": "doyelmj",
+      "first name": "Michael",
+      "last name": "Doyel",
+      "building": "PERC",
+      "floor": 3,
+      "room": 315,
+      "role": "RA"
+    },
+    "castonkr": {
+      "username": "castonkr",
+      "first name": "Kiana",
+      "last name": "Caston",
+      "building": "TRIPS",
+      "floor": "BLUM 4",
+      "room": 405,
+      "role": "RA"
+    },
+    "bergcj": {
+      "username": "bergcj",
+      "first name": "Colin",
+      "last name": "Berg",
+      "building": "DEMING",
+      "floor": 1,
+      "room": 112,
+      "role": "RA"
+    },
+    "baileyrj": {
+      "username": "baileyrj",
+      "first name": "Ryan",
+      "last name": "Bailey",
+      "building": "APTR",
+      "floor": "WEST 2",
+      "room": "206A",
+      "role": "RA"
+    },
+    "bechtocw": {
+      "username": "bechtocw",
+      "first name": "Cole",
+      "last name": "Bechtold",
+      "building": "APTR",
+      "floor": "EAST 3",
+      "room": "306A",
+      "role": "RA"
+    },
+    "andersm2": {
+      "username": "andersm2",
+      "first name": "Miranda",
+      "last name": "Anderson-Kenney",
+      "building": "APTR",
+      "floor": "WEST 3",
+      "room": "306A",
+      "role": "RA"
+    },
+    "mikhaidn": {
+      "username": "mikhaidn",
+      "first name": "Daniel",
+      "last name": "Mikhail",
+      "building": "TRIPS",
+      "floor": "BLUM 2",
+      "room": 206,
+      "role": "RA"
+    },
+    "meyerjc": {
+      "username": "meyerjc",
+      "first name": "Jason",
+      "last name": "Meyer",
+      "building": "TRIPS",
+      "floor": "MEES 2",
+      "room": 206,
+      "role": "RA"
+    },
+    "markisga": {
+      "username": "markisga",
+      "first name": "Gabrielle",
+      "last name": "Markison",
+      "building": "APTR",
+      "floor": "EAST 2",
+      "room": "206A",
+      "role": "RA"
+    },
+    "lindsejk": {
+      "username": "lindsejk",
+      "first name": "Jacob",
+      "last name": "Lindsey",
+      "building": "TRIPS",
+      "floor": "SCHARP 2",
+      "room": 206,
+      "role": "RA"
+    },
+    "keltzbm": {
+      "username": "keltzbm",
+      "first name": "Brandon",
+      "last name": "Keltz",
+      "building": "LAKE",
+      "floor": 4,
+      "room": "407A",
+      "role": "RA"
+    },
+    "gibsonps": {
+      "username": "gibsonps",
+      "first name": "Patrick",
+      "last name": "Gibson",
+      "building": "BSB",
+      "floor": 2,
+      "room": 224,
+      "role": "RA"
+    },
+    "sahabuj": {
+      "username": "sahabuj",
+      "first name": "Jane",
+      "last name": "Sahabu",
+      "building": "LAKE",
+      "floor": 3,
+      "room": "307A",
+      "role": "RA"
+    },
+    "domkema": {
+      "username": "domkema",
+      "first name": "Michael",
+      "last name": "Domke",
+      "building": "APTR",
+      "floor": "EAST 1",
+      "room": "106A",
+      "role": "RA"
+    },
+    "tuskaca": {
+      "username": "tuskaca",
+      "first name": "Carley",
+      "last name": "Tuska",
+      "building": "BSB",
+      "floor": 3,
+      "room": 324,
+      "role": "RA"
+    },
+    "vicencrj": {
+      "username": "vicencrj",
+      "first name": "Ryan",
+      "last name": "Vicencio",
+      "building": "BSB",
+      "floor": 1,
+      "room": 124,
+      "role": "RA"
+    },
+    "cail": {
+      "username": "cail",
+      "first name": "Lingzhe",
+      "last name": "Cai",
+      "building": "DEMING",
+      "floor": 3,
+      "room": 304,
+      "role": "RA"
+    },
+    "yagergb": {
+      "username": "yagergb",
+      "first name": "Guy",
+      "last name": "Yager",
+      "building": "DEMING",
+      "floor": 9,
+      "room": 9,
+      "role": "RA"
+    },
+    "adarvea": {
+      "username": "adarvea",
+      "first name": "Alessandro",
+      "last name": "Adarve Cuellar",
+      "building": "LAKE",
+      "floor": 2,
+      "room": "207A",
+      "role": "RA"
+    },
+    "alangavr": {
+      "username": "alangavr",
+      "first name": "Vibha",
+      "last name": "Alangar",
+      "building": "APTR",
+      "floor": "WEST 1",
+      "room": "106A",
+      "role": "RA"
+    },
+    "arhinbn": {
+      "username": "arhinbn",
+      "first name": "Barbara",
+      "last name": "Arhin",
+      "building": "TRIPS",
+      "floor": "SCHARP 4",
+      "room": 406,
+      "role": "RA"
+    },
+    "himesjs": {
+      "username": "himesjs",
+      "first name": "Joshua",
+      "last name": "Himes",
+      "building": "SPEED",
+      "floor": 2,
+      "room": 206,
+      "role": "RA"
+    },
+    "washbukd": {
+      "username": "washbukd",
+      "first name": "Kyle",
+      "last name": "Washburn",
+      "building": "DEMING",
+      "floor": 1,
+      "room": 101,
+      "role": "GA"
+    },
+    "marvinjt": {
+      "username": "marvinjt",
+      "first name": "Jason",
+      "last name": "Marvin",
+      "building": "DEMING",
+      "floor": 2,
+      "room": 215,
+      "role": "RA"
+    },
+    "hamathhj": {
+      "username": "hamathhj",
+      "first name": "Hazen",
+      "last name": "Hamather",
+      "building": "PERC",
+      "floor": 1,
+      "room": 17,
+      "role": "GA"
+    },
+    "ottoneok": {
+      "username": "ottoneok",
+      "first name": "Olivia",
+      "last name": "Ottone",
+      "building": "APTR",
+      "floor": "WEST 1",
+      "room": "109A",
+      "role": "GA"
+    }
+  }
+}
